@@ -9,7 +9,7 @@ Y luego ejecutar:
 ./main
 ````
 
-Aconsejado usar este código en repl.it ya que fue el entorno en el cual se creó el código y no hubo ningun problema al ejecutar como anteriormente fue detallado, en el `shell`.
+Aconsejado usar este código en replit.com ya que fue el entorno en el cual se creó el código y no hubo ningun problema al ejecutar como anteriormente fue detallado, en el `shell`.
 
 ## Carpeta TDAs
 En la carpeta `tdas` se encuentra la implementación para utilizar distintos TDAs, en este programa solo utilizamos `list.c` y `list.h`.
