@@ -262,7 +262,7 @@ int main() {
       mostrar_lista_pacientes(prioridadAlta, prioridadMedia, prioridadBaja);
       break;
     case '4':
-      atenderSiguiente(prioridadAlta, prioridadMedia, prioridadBaja);
+      atenderSiguiente(listaPacientes,prioridadAlta, prioridadMedia, prioridadBaja);
       break;
     case '5':
       pacientesPorPrioridad(prioridadAlta, prioridadMedia, prioridadBaja);

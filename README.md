@@ -1,3 +1,5 @@
+## Aplicación Para Gestión Hospitalaria
+
 ## Cómo Ejecutar
 Para ejecutar el main primero debemos compilar (en la carpeta raíz)
 ````
