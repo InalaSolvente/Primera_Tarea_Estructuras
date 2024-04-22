@@ -238,7 +238,7 @@ void pacientesPorPrioridad(List *prioridadAlta, List *prioridadMedia, List *prio
 int main() {
   char opcion;
   //Se inicia un contador para saber el orden de llegada de los pacientes
-  unsigned short ordenLlegada = 0;
+  unsigned short ordenLlegada = 1;
   //Se crea una lista principal, para facilitar la busqueda de pacientes
   List *listaPacientes = list_create(); 
   //Se inicializan listas según prioridad para optimizar el programa y manejar de manera correcta cada prioridad
