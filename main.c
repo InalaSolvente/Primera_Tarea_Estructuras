@@ -49,7 +49,7 @@ unsigned int mostrarPrioridad(List *prioridad, char *prioridadAmostrar){
   unsigned int cont = 0;
   pacienteAmostrar = list_first(prioridad);
   while (pacienteAmostrar != NULL){
-    if (cont == 0) printf("PRIORIDAD %s\n\n", prioridadAmostrar);
+    if (cont == 0) printf("\nPRIORIDAD %s\n\n", prioridadAmostrar);
     printf("Siguiente paciente: %s\n", pacienteAmostrar->nombre);
     printf("Sintomas: %s\n",pacienteAmostrar->sintoma);
     pacienteAmostrar = list_next(prioridad);

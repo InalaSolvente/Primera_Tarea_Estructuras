@@ -1,6 +1,4 @@
-En este *repl* puedes encontrar varios ejemplos que te pueden ayudar con las tareas de estructura.
-
-## Código de Ejemplo (main)
+## Cómo Ejecutar
 Para ejecutar el main primero debemos compilar (en la carpeta raíz)
 ````
 gcc tdas/*.c main.c -Wno-unused-result -o main
@@ -11,23 +9,18 @@ Y luego ejecutar:
 ./main
 ````
 
-## TDAs
-En la carpeta `tdas` se encuentran implementados distintos TDAs que puedes utilizar (lista, pila, cola, cola con prioridad y mapas). 
+Aconsejado usar este código en repl.it ya que fue el entorno en el cual se creó el código y no hubo ningun problema al ejecutar como anteriormente fue detallado, en el `shell`.
 
-Las implementaciones no son las más eficientes (todas usan como estructura de datos una **lista enlazada**), por lo que puedes reemplazarlas por las que has realizado en los labs.
+## Carpeta TDAs
+En la carpeta `tdas` se encuentra la implementación para utilizar distintos TDAs, en este programa solo utilizamos `list.c` y `list.h`.
 
-## Otros códigos (en carpeta examples)
-Para ejecutar los distintos ejemplos que hay en la carpeta `examples`, primero debes compilarlos. Si estamos en la carpeta raíz:
-````
-gcc tdas/*.c examples/example2_menu.c -Wno-unused-result -o example
-````
-Y luego ejecutarlos:
-````
-./example
-````
+## Funcionamiento Y Uso del Código
+Al ejecutar correctamente, se mostrará un menú con todas las funcionalidades del código. Para utilizar de manera correcta el programa solamente hay que seguir los pasos que éste mismo nos dará.
 
-Se incluyen los siguientes ejemplos:
-* `example1_list`: Uso del TDA Lista, inserción y eliminación de elementos.
-* `example2_menu`: Ejemplo de menú con submenús.
-* `example3_readcsv`: Ejemplo de lectura desde un archivo csv y almacenamiento en datos estructurados.
-* `example4_map`: Ejemplo de uso del TDA mapa.
+Algunas observaciones sobre el funcionamiento del programa, para el nombre como máximo se podrán ingresar 30 caracteres y para los sintomas 250. Si se ingresan más de estos caracteres puede resultar en variadas fallas del programa.
+
+Al registrarse los pacientes todos se ingresarán al sistema con prioridad baja, mas adelante con una de las opciones del menú se podrá cambiar esto y todos los pacientes se ordenarán en su prioridad en orden de llegada (orden de ingreso al sistema).
+
+Lo importante al cambiar prioridad o mostrar prioridad, es escribir bien las palabras o nombres, no importa mayusculas o minusculas pero si la correcta escritura de las palabras.
+
+Tener en cuenta que cada vez que se ejecute o reinicie el programa, el sistema de ingreso hospitalario borrará todo lo anterior y se deberán ingresar todos los pacientes nuevamente. Por favor solamente cerrar o salir del programa cuando se deje de utilizar definitivamente.
